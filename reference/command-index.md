@@ -1,0 +1,55 @@
+# Command Index
+
+## Player Commands
+
+| Command | Area |
+| --- | --- |
+| `/spawn` | Teleport |
+| `/setspawn` | Teleport staff setup |
+| `/home [name]` | Homes |
+| `/sethome [name]` | Homes |
+| `/delhome <name>` | Homes |
+| `/homes` | Homes |
+| `/warp <name>` | Warps |
+| `/setwarp <name>` | Warps staff setup |
+| `/delwarp <name>` | Warps staff setup |
+| `/warps` | Warps |
+| `/pwarp <player|warp> [warp]` | Player warps |
+| `/setpwarp <name>` | Player warps |
+| `/delpwarp <name>` | Player warps |
+| `/pwarps [player]` | Player warps |
+| `/tpa <player>` | Teleport requests |
+| `/tpahere <player>` | Teleport requests |
+| `/tpaccept` | Teleport requests |
+| `/tpdeny` | Teleport requests |
+| `/rtp` | Random teleport |
+| `/balance`, `/bal` | Economy |
+| `/pay <player> <amount>` | Economy |
+| `/bank`, `/bank upgrade` | Bank |
+| `/deposit <amount>` | Bank |
+| `/withdraw <amount>` | Bank |
+| `/serverbank`, `/serverbank deposit <amount>` | Server bank |
+| `/fly`, `/flycharge`, `/flyupgrade` | Flight |
+| `/storage ...` | Storage |
+| `/professions`, `/profession ...` | Professions |
+| `/custommessage`, `/cosmetics` | Cosmetics |
+| `/afk` | AFK |
+
+## Staff Commands
+
+| Command | Area |
+| --- | --- |
+| `/havenadmin`, `/admin` | Admin root |
+| `/admin time ...`, `/time ...` | Time control |
+| `/admin weather ...`, `/weather ...` | Weather control |
+| `/admin broadcast ...` | Broadcast |
+| `/admin gamemode ...`, `/creative`, `/survival`, `/adventure`, `/spectator` | Game mode |
+| `/admin heal ...` | Heal |
+| `/admin feed ...` | Feed |
+| `/admin fly ...` | Flight permission |
+| `/admin speed ...` | Walk/fly speed |
+| `/clearchat`, `/lockchat` | Chat controls |
+| `/kick`, `/warn`, `/ban`, `/tempban`, `/unban`, `/mute`, `/unmute`, `/modhistory` | Moderation |
+| `/admin profession ...` | Profession admin |
+| `/admin storage ...` | Storage admin |
+| `/admin border ...` | Worldborder admin |
