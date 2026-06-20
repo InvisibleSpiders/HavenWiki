@@ -4,37 +4,44 @@ Public documentation for HavenMC server systems.
 
 This wiki starts with HavenNecessities, the all-in-one Paper plugin that powers teleportation, economy, banks, charged flight, storage, professions, frontier rules, moderation tools, cosmetics, AFK, chat, and combat protections.
 
+## Website
+
+This repository is configured for GitHub Pages with MkDocs Material.
+
+- Public site: https://invisiblespiders.github.io/HavenWiki/
+- Source docs: [docs](docs)
+
 ## For Players
 
-- [Getting Started](players/getting-started.md)
-- [Command Guide](players/commands.md)
-- [Teleportation](players/teleportation.md)
-- [Economy](players/economy.md)
-- [Banks](players/banks.md)
-- [Flight](players/flight.md)
-- [Storage](players/storage.md)
-- [Professions](players/professions/README.md)
-- [Worldborder Frontier](players/worldborder-frontier.md)
-- [Combat](players/combat.md)
-- [Cosmetics](players/cosmetics.md)
-- [AFK](players/afk.md)
+- [Getting Started](docs/players/getting-started.md)
+- [Command Guide](docs/players/commands.md)
+- [Teleportation](docs/players/teleportation.md)
+- [Economy](docs/players/economy.md)
+- [Banks](docs/players/banks.md)
+- [Flight](docs/players/flight.md)
+- [Storage](docs/players/storage.md)
+- [Professions](docs/players/professions/index.md)
+- [Worldborder Frontier](docs/players/worldborder-frontier.md)
+- [Combat](docs/players/combat.md)
+- [Cosmetics](docs/players/cosmetics.md)
+- [AFK](docs/players/afk.md)
 
 ## For Staff And Admins
 
-- [Installation](admins/installation.md)
-- [Configuration](admins/configuration.md)
-- [Modules](admins/modules.md)
-- [Permissions](admins/permissions.md)
-- [Admin Commands](admins/admin-commands.md)
-- [Moderation](admins/moderation.md)
-- [Storage And Database](admins/storage-and-database.md)
-- [Placeholders And Integrations](admins/placeholders-integrations.md)
+- [Installation](docs/admins/installation.md)
+- [Configuration](docs/admins/configuration.md)
+- [Modules](docs/admins/modules.md)
+- [Permissions](docs/admins/permissions.md)
+- [Admin Commands](docs/admins/admin-commands.md)
+- [Moderation](docs/admins/moderation.md)
+- [Storage And Database](docs/admins/storage-and-database.md)
+- [Placeholders And Integrations](docs/admins/placeholders-integrations.md)
 
 ## Reference
 
-- [Command Index](reference/command-index.md)
-- [Permission Index](reference/permission-index.md)
-- [Module Index](reference/module-index.md)
+- [Command Index](docs/reference/command-index.md)
+- [Permission Index](docs/reference/permission-index.md)
+- [Module Index](docs/reference/module-index.md)
 
 ## Source
 

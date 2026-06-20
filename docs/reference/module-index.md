@@ -8,7 +8,7 @@
 | Server Bank | [Banks](../players/banks.md) | [Modules](../admins/modules.md) |
 | Flight | [Flight](../players/flight.md) | [Modules](../admins/modules.md) |
 | Storage | [Storage](../players/storage.md) | [Modules](../admins/modules.md) |
-| Professions | [Professions](../players/professions/README.md) | [Modules](../admins/modules.md) |
+| Professions | [Professions](../players/professions/index.md) | [Modules](../admins/modules.md) |
 | Worldborder | [Worldborder Frontier](../players/worldborder-frontier.md) | [Modules](../admins/modules.md) |
 | Combat | [Combat](../players/combat.md) | [Modules](../admins/modules.md) |
 | Custom Message | [Cosmetics](../players/cosmetics.md) | [Modules](../admins/modules.md) |

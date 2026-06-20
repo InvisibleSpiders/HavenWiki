@@ -1,0 +1,74 @@
+site_name: HavenWiki
+site_description: Public HavenMC wiki for HavenNecessities player and admin documentation.
+site_url: https://invisiblespiders.github.io/HavenWiki/
+repo_url: https://github.com/InvisibleSpiders/HavenWiki
+repo_name: InvisibleSpiders/HavenWiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Players:
+      - players/getting-started.md
+      - players/commands.md
+      - players/teleportation.md
+      - players/economy.md
+      - players/banks.md
+      - players/flight.md
+      - players/storage.md
+      - Professions:
+          - players/professions/index.md
+          - players/professions/angler.md
+          - players/professions/blacksmith.md
+          - players/professions/builder.md
+          - players/professions/enchanter.md
+          - players/professions/explorer.md
+          - players/professions/farmer.md
+          - players/professions/forester.md
+          - players/professions/frontier_scout.md
+          - players/professions/hunter.md
+          - players/professions/merchant.md
+          - players/professions/prospector.md
+      - players/worldborder-frontier.md
+      - players/combat.md
+      - players/cosmetics.md
+      - players/afk.md
+  - Staff And Admins:
+      - admins/installation.md
+      - admins/configuration.md
+      - admins/modules.md
+      - admins/permissions.md
+      - admins/admin-commands.md
+      - admins/moderation.md
+      - admins/storage-and-database.md
+      - admins/placeholders-integrations.md
+  - Reference:
+      - reference/command-index.md
+      - reference/permission-index.md
+      - reference/module-index.md
