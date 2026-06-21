@@ -10,6 +10,8 @@ HavenWiki starts with HavenNecessities, the all-in-one Paper plugin that powers 
 
 - [Getting Started](players/getting-started.md)
 - [Command Guide](players/commands.md)
+- [Chat](players/chat.md)
+- [Discord Bridge](players/discord.md)
 - [Teleportation](players/teleportation.md)
 - [Economy](players/economy.md)
 - [Banks](players/banks.md)

@@ -21,6 +21,7 @@
 - `havennecessities.teleport.tpaccept`
 - `havennecessities.teleport.tpdeny`
 - `havennecessities.teleport.rtp`
+- `havennecessities.teleport.tppos`
 - `havennecessities.economy.bypass.teleport-costs`
 
 ## Economy And Banks
@@ -43,6 +44,12 @@
 - `havennecessities.storage.use`
 - `havennecessities.afk.use`
 - `havennecessities.chat.use`
+- `havennecessities.chat.item-link`
+- `havennecessities.chat.mention`
+- `havennecessities.chat.channel.market`
+- `havennecessities.chat.channel.staff`
+- `havennecessities.chat.cooldown.bypass.market`
+- `havennecessities.chat.discord.link`
 - `havennecessities.custommessage.use`
 - `havennecessities.custommessage.custom`
 - `havennecessities.professions.use`
@@ -65,6 +72,9 @@
 - `havennecessities.admin.feed`
 - `havennecessities.admin.fly`
 - `havennecessities.admin.speed`
+- `havennecessities.admin.item`
+- `havennecessities.admin.item.unsafe`
+- `havennecessities.admin.chat.discord`
 - `havennecessities.admin.op`
 - `havennecessities.admin.deop`
 - `havennecessities.admin.clearchat`

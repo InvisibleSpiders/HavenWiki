@@ -5,7 +5,7 @@ Earns from logs, saplings, and sustainable wood gathering.
 ## Reward Roles
 
 - Main: 100% XP, income, storage growth, and stat perks.
-- Hobby: 35% XP, 35% income, 35% storage growth, and 35% stat perks.
+- Hobby: 35% XP, 35% income, no storage growth, and 35% stat perks.
 
 ## XP And Income Sources
 

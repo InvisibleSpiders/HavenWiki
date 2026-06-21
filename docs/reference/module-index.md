@@ -13,6 +13,7 @@
 | Combat | [Combat](../players/combat.md) | [Modules](../admins/modules.md) |
 | Custom Message | [Cosmetics](../players/cosmetics.md) | [Modules](../admins/modules.md) |
 | AFK | [AFK](../players/afk.md) | [Modules](../admins/modules.md) |
-| Chat | [Getting Started](../players/getting-started.md) | [Modules](../admins/modules.md) |
+| Chat | [Chat](../players/chat.md) | [Modules](../admins/modules.md) |
+| Discord Bridge | [Discord Bridge](../players/discord.md) | [Modules](../admins/modules.md) |
 | Server Controls | Staff-only | [Admin Commands](../admins/admin-commands.md) |
 | Inventory | Gameplay rules | [Modules](../admins/modules.md) |

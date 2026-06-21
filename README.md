@@ -15,6 +15,8 @@ This repository is configured for GitHub Pages with MkDocs Material.
 
 - [Getting Started](docs/players/getting-started.md)
 - [Command Guide](docs/players/commands.md)
+- [Chat](docs/players/chat.md)
+- [Discord Bridge](docs/players/discord.md)
 - [Teleportation](docs/players/teleportation.md)
 - [Economy](docs/players/economy.md)
 - [Banks](docs/players/banks.md)

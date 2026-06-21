@@ -54,6 +54,8 @@ nav:
   - Players:
       - players/getting-started.md
       - players/commands.md
+      - players/chat.md
+      - players/discord.md
       - players/teleportation.md
       - players/economy.md
       - players/banks.md

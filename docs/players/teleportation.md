@@ -1,29 +1,77 @@
 # Teleportation
 
-HavenNecessities supports spawn, homes, server warps, player warps, teleport requests, and random teleport.
+The teleport module covers spawn, homes, server warps, player warps, TPA, RTP, and coordinate teleports.
 
-## Homes
+## Player Teleports
 
-Use `/sethome [name]` to save a home and `/home [name]` to return to it. Use `/homes` to list homes and `/delhome <name>` to remove one.
+| Command | Purpose |
+| --- | --- |
+| `/spawn` | Teleport to the server spawn. |
+| `/home [name]` | Teleport to one of your homes. |
+| `/sethome [name]` | Save a home at your current location. |
+| `/delhome <name>` | Delete a saved home. |
+| `/homes` | List saved homes. |
+| `/warp <name>` | Teleport to a server warp. |
+| `/warps` | List server warps. |
+| `/pwarp <player|warp> [warp]` | Teleport to a player warp. |
+| `/pwarps [player]` | List player warps. |
+| `/tpa <player>` | Request to teleport to another player. |
+| `/tpahere <player>` | Request that another player teleports to you. |
+| `/tpaccept` | Accept a pending teleport request. |
+| `/tpdeny` | Deny a pending teleport request. |
+| `/rtp` | Randomly teleport in the configured world range. |
 
-Servers can configure home limits. Some servers may grant limit permissions such as `havennecessities.teleport.homes.<number>`.
+## Coordinate Teleport
 
-## Warps
+`/tppos <x> <y> <z> [player] [world]` is an admin coordinate teleport command.
 
-Server warps are public anchors created by staff. Use `/warps` to list them and `/warp <name>` to teleport.
+Examples:
 
-Player warps are player-owned anchors. Use `/setpwarp <name>`, `/pwarps [player]`, `/pwarp <player|warp> [warp]`, and `/delpwarp <name>`.
+```text
+/tppos 100 80 -250
+/tppos 100 80 -250 Steve
+/tppos 100 80 -250 Steve world_nether
+/tppos ~1 ~ ~-2 Steve
+```
 
-## Teleport Requests
+Behavior:
 
-Use `/tpa <player>` to ask to teleport to someone, or `/tpahere <player>` to ask them to teleport to you. Requests can be accepted with `/tpaccept` or denied with `/tpdeny`.
+- With no player argument, `/tppos` teleports the command sender.
+- With a player but no world, it teleports that player in the target player's current world.
+- With a player and world, it teleports that player in the provided world.
+- Console must provide a player name.
+- `~`, `~1`, and `~-2` relative coordinates are supported relative to the target player's current location.
 
-## Random Teleport
+## Warmups And Cooldowns
 
-`/rtp` searches for a safe random location using the server's configured radius and safety checks.
+Teleport warmups can be cancelled by movement, damage, or logout depending on config. Cooldowns are configured per teleport type.
 
-## Costs, Warmups, And Cooldowns
+## Costs
 
-Servers can enable warmups, cooldowns, and wallet costs. If teleport costs are enabled, charges happen after a successful warmup, not when a cancelled warmup begins.
+Teleport costs are disabled by default. When the balance module is enabled and teleport cost charging is enabled, costs are checked before warmup and charged only after a successful teleport.
 
-Worldborder and combat modules may block teleporting in dangerous situations.
+## Frontier Safety
+
+When the worldborder module is enabled, teleport commands can be blocked from leaving or entering the frontier depending on worldborder settings. The bypass permission is intentionally separate so moderation staff can be granted it explicitly.
+
+## Permissions
+
+- `havennecessities.teleport.spawn`
+- `havennecessities.teleport.home`
+- `havennecessities.teleport.sethome`
+- `havennecessities.teleport.delhome`
+- `havennecessities.teleport.homes`
+- `havennecessities.teleport.warp`
+- `havennecessities.teleport.setwarp`
+- `havennecessities.teleport.delwarp`
+- `havennecessities.teleport.warps`
+- `havennecessities.teleport.playerwarp`
+- `havennecessities.teleport.setplayerwarp`
+- `havennecessities.teleport.delplayerwarp`
+- `havennecessities.teleport.pwarps`
+- `havennecessities.teleport.tpa`
+- `havennecessities.teleport.tpahere`
+- `havennecessities.teleport.tpaccept`
+- `havennecessities.teleport.tpdeny`
+- `havennecessities.teleport.rtp`
+- `havennecessities.teleport.tppos`

@@ -11,7 +11,7 @@ This page highlights major permission groups. For a fuller list, see [Permission
 - Flight: `havennecessities.flight.*`
 - Storage: `havennecessities.storage.use`
 - AFK: `havennecessities.afk.use`
-- Chat: `havennecessities.chat.use`
+- Chat: `havennecessities.chat.use`, item links, mentions, market/staff channels, Discord linking
 - Custom messages: `havennecessities.custommessage.*`
 - Professions: `havennecessities.professions.use`
 
@@ -24,6 +24,7 @@ This page highlights major permission groups. For a fuller list, see [Permission
 - Worldborder admin: `havennecessities.admin.worldborder`
 - Server controls: `havennecessities.admin.time`, `weather`, `broadcast`, `gamemode`, `heal`, `feed`, `fly`, `speed`
 - Moderation: `havennecessities.admin.kick`, `warn`, `ban`, `unban`, `mute`, `unmute`, `modhistory`
+- Chat/Discord admin: `havennecessities.admin.chat.discord`
 
 ## Explicit Bypasses
 

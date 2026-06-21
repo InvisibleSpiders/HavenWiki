@@ -23,6 +23,13 @@
 | `/tpaccept` | Teleport requests |
 | `/tpdeny` | Teleport requests |
 | `/rtp` | Random teleport |
+| `/tppos <x> <y> <z> [player] [world]` | Coordinate teleport |
+| `/chat <channel> <message>` | Chat channels |
+| `/global <message>` | Global chat |
+| `/market <message>` | Market chat |
+| `/staffchat <message>` | Staff chat |
+| `/discord <link|unlink|status>` | Discord account linking |
+| `/havenitempreview` | Chat item preview |
 | `/balance`, `/bal` | Economy |
 | `/pay <player> <amount>` | Economy |
 | `/bank`, `/bank upgrade` | Bank |

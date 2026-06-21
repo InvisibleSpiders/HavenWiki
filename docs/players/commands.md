@@ -22,6 +22,20 @@ This page lists common player commands. Staff-only commands live in [Admin Comma
 | `/tpaccept` | Accept a teleport request. |
 | `/tpdeny` | Deny a teleport request. |
 | `/rtp` | Random teleport to a safe location. |
+| `/tppos <x> <y> <z> [player] [world]` | Staff coordinate teleport. |
+
+## Chat And Discord
+
+| Command | Description |
+| --- | --- |
+| `/chat <channel> <message>` | Send a message to a configured chat channel. |
+| `/global <message>` | Send a global chat message. |
+| `/market <message>` | Send a market chat message. |
+| `/staffchat <message>` | Send a staff chat message. |
+| `/discord link` | Start Discord account linking. |
+| `/discord status` | Check Discord link status. |
+| `/discord unlink` | Remove your Discord link. |
+| `/havenitempreview` | Open your most recent chat item preview. |
 
 ## Economy And Banks
 
