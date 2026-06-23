@@ -1,6 +1,6 @@
 # Chat
 
-The chat module formats normal chat, optional specialty channels, tab names, item links, and player mentions. It is disabled by default until the server enables it.
+The chat module formats normal chat, optional specialty channels, tab names, item links, and player mentions. It is enabled by default in the current HavenNecessities configuration. Staff-only chat commands are documented in [Admin Commands](../admins/admin-commands.md).
 
 ## Channels
 
@@ -12,14 +12,12 @@ Specialty channels can be reached with commands or shortcut prefixes:
 | --- | --- | --- | --- |
 | Global | `/global <message>`, `/chat global <message>` | none | Normal unrestricted chat. |
 | Market | `/market <message>`, `/chat market <message>` | `#`, `$` | Defaults to a 60 second cooldown. |
-| Staff | `/staffchat <message>`, `/chat staff <message>` | `!`, `@` | Requires the configured staff channel permission. |
 
 Shortcut examples:
 
 ```text
 # Selling diamonds
 $ Buying logs
-! Staff message
 ```
 
 ## Item Links
@@ -40,7 +38,15 @@ If the player is not holding an item, the message is blocked with the configured
 
 Players with `havennecessities.chat.mention` can mention online players by typing `@PlayerName`.
 
-When the mentioned player is online, the mention can be highlighted in chat and the target can receive an action bar, title, and sound notification. Mentioning yourself is ignored by default.
+When the mentioned player is online, the mention can be highlighted in chat and the target can receive notification feedback. Mentioning yourself is ignored by default.
+
+The notification methods are individually configurable:
+
+- Action bar notifications.
+- Title/subtitle popups.
+- Sound notifications.
+
+For example, a server can keep action bar and sound notifications while disabling title/subtitle popups.
 
 ## Tab List
 
@@ -66,6 +72,4 @@ When enabled, a player who kills another player in PvP can receive a temporary m
 - `havennecessities.chat.use`
 - `havennecessities.chat.item-link`
 - `havennecessities.chat.mention`
-- `havennecessities.chat.channel.staff`
-- `havennecessities.chat.cooldown.bypass.market`
 - `havennecessities.chat.discord.link`

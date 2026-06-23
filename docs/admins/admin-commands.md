@@ -2,6 +2,25 @@
 
 HavenNecessities admin commands are available through `/havenadmin` and `/admin`.
 
+## Staff Teleport
+
+| Command | Description |
+| --- | --- |
+| `/setspawn` | Set the server spawn at your current location. |
+| `/setwarp <name>` | Create or replace a server warp at your current location. |
+| `/delwarp <name>` | Delete a server warp. |
+| `/tppos <x> <y> <z> [player] [world]` | Teleport yourself or another player to coordinates. |
+
+Examples:
+
+```text
+/setwarp mines
+/delwarp oldmarket
+/tppos 100 80 -250
+/tppos 100 80 -250 Steve
+/tppos ~1 ~ ~-2 Steve
+```
+
 ## Economy Corrections
 
 | Command | Description |
@@ -43,6 +62,22 @@ Wallet edits enforce wallet maximums. Personal bank edits enforce the player's c
 | `/havenadmin storage remove <player> <category> <material> <amount>` | Remove stored items. |
 | `/havenadmin storage clear <player> <category|all> confirm` | Clear stored items. |
 
+## Tool Belt
+
+| Command | Description |
+| --- | --- |
+| `/havenadmin toolbelt view <player>` | View or edit a player's Tool Belt storage. |
+| `/havenadmin toolbelt give <player>` | Give the physical Tool Belt item to an online player. |
+| `/havenadmin toolbelt clear <player> confirm` | Clear stored belt tools. |
+
+## Events
+
+| Command | Description |
+| --- | --- |
+| `/havenadmin event start <event-id>` | Start a configured event. |
+| `/havenadmin event cancel` | Cancel the active event. |
+| `/havenadmin event status` | Inspect the active event. |
+
 ## Worldborder
 
 | Command | Description |
@@ -56,5 +91,38 @@ Wallet edits enforce wallet maximums. Personal bank edits enforce the player's c
 ## Server Controls
 
 Server controls include `/admin time`, `/admin weather`, `/admin broadcast`, `/admin gamemode`, `/admin heal`, `/admin feed`, `/admin fly`, `/admin speed`, `/clearchat`, `/lockchat`, and moderation shortcuts.
+
+## Staff Chat
+
+| Command | Description |
+| --- | --- |
+| `/staffchat <message>` | Send a staff-channel message. |
+| `/chat staff <message>` | Send a message to the staff channel. |
+
+Shortcut examples:
+
+```text
+! Need a second look at spawn
+@ Player report in global
+```
+
+## Item Tools
+
+| Command | Description |
+| --- | --- |
+| `/admin item rename <name...>` | Rename the held item with MiniMessage formatting. |
+| `/admin item lore add <line...>` | Add held item lore. |
+| `/admin item lore set <line-number> <line...>` | Replace a lore line. |
+| `/admin item lore remove <line-number>` | Remove a lore line. |
+| `/admin item lore clear` | Clear held item lore. |
+| `/admin item enchant <enchantment> <level> [--unsafe|-u]` | Add an enchantment. |
+| `/admin item enchant remove <enchantment>` | Remove an enchantment. |
+| `/admin item enchant clear` | Clear enchantments. |
+| `/admin item repair` | Repair the held item. |
+| `/admin item repair all` | Repair repairable items in your inventory. |
+| `/admin item repair toolbelt` | Repair stored tools in your own Tool Belt. |
+| `/admin item repair all-with-toolbelt` | Repair inventory and stored Tool Belt tools. |
+
+Unsafe enchantments require both `--unsafe` or `-u` and `havennecessities.admin.item.unsafe`.
 
 OP and deop controls require separate permissions, `confirm`, and `op-controls.enabled: true`.

@@ -6,6 +6,8 @@ The Discord bridge is part of the chat module. Discord support is disabled by de
 
 - Relays configured Minecraft chat channels to Discord channels.
 - Relays Discord messages back into Minecraft channels.
+- Sends optional server online/offline and player join/quit notifications.
+- Can relay filtered Minecraft console output to Discord.
 - Requires linked accounts for Discord-to-Minecraft chat by default.
 - Can reward linked players with configured server commands.
 - Can mark links inactive when players leave the Discord server.
@@ -16,6 +18,8 @@ The Discord bridge is part of the chat module. Discord support is disabled by de
 2. The plugin gives the player a temporary code.
 3. Player sends a DM to the bot with `link <code>` or `/link <code>`.
 4. The link becomes active if the code is valid, not expired, and the Discord user is in the configured guild.
+
+In Minecraft, the generated `link <code>` prompt can be configured as a clickable MiniMessage component that copies the DM text to the player's clipboard.
 
 Players can also use:
 
@@ -50,6 +54,31 @@ discord:
 ## Channel Mapping
 
 Each chat channel can map to a Discord channel ID. For example, global, market, and staff chat can each relay to a different Discord channel. Channels that should not relay can keep their per-channel Discord setting disabled.
+
+## Server Notifications
+
+Discord notifications can send server lifecycle and player connection messages to a configured Discord channel.
+
+Supported messages:
+
+- Server online.
+- Server offline.
+- Player joined.
+- Player left.
+
+Join and quit notifications can use the final Bukkit join/quit message. That means join and leave messages selected through the cosmetics module can be reflected in Discord.
+
+## Console Relay
+
+Discord console relay can send Minecraft server console output to Discord. This is disabled by default because server logs can become noisy and may include sensitive information from other plugins.
+
+Useful controls:
+
+- Minimum Java log level, such as `INFO`, `WARNING`, or `SEVERE`.
+- Include patterns to send only matching messages.
+- Exclude patterns to block matching messages.
+
+Keep console relay narrow. A dedicated private staff Discord channel is the safest destination.
 
 ## Permissions
 

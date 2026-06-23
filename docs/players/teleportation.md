@@ -1,6 +1,6 @@
 # Teleportation
 
-The teleport module covers spawn, homes, server warps, player warps, TPA, RTP, and coordinate teleports.
+The teleport module covers spawn, homes, server warps, player warps, TPA, and RTP. Staff setup and coordinate teleport commands are documented in [Admin Commands](../admins/admin-commands.md).
 
 ## Player Teleports
 
@@ -20,27 +20,6 @@ The teleport module covers spawn, homes, server warps, player warps, TPA, RTP, a
 | `/tpaccept` | Accept a pending teleport request. |
 | `/tpdeny` | Deny a pending teleport request. |
 | `/rtp` | Randomly teleport in the configured world range. |
-
-## Coordinate Teleport
-
-`/tppos <x> <y> <z> [player] [world]` is an admin coordinate teleport command.
-
-Examples:
-
-```text
-/tppos 100 80 -250
-/tppos 100 80 -250 Steve
-/tppos 100 80 -250 Steve world_nether
-/tppos ~1 ~ ~-2 Steve
-```
-
-Behavior:
-
-- With no player argument, `/tppos` teleports the command sender.
-- With a player but no world, it teleports that player in the target player's current world.
-- With a player and world, it teleports that player in the provided world.
-- Console must provide a player name.
-- `~`, `~1`, and `~-2` relative coordinates are supported relative to the target player's current location.
 
 ## Warmups And Cooldowns
 
@@ -62,8 +41,6 @@ When the worldborder module is enabled, teleport commands can be blocked from le
 - `havennecessities.teleport.delhome`
 - `havennecessities.teleport.homes`
 - `havennecessities.teleport.warp`
-- `havennecessities.teleport.setwarp`
-- `havennecessities.teleport.delwarp`
 - `havennecessities.teleport.warps`
 - `havennecessities.teleport.playerwarp`
 - `havennecessities.teleport.setplayerwarp`
@@ -74,4 +51,3 @@ When the worldborder module is enabled, teleport commands can be blocked from le
 - `havennecessities.teleport.tpaccept`
 - `havennecessities.teleport.tpdeny`
 - `havennecessities.teleport.rtp`
-- `havennecessities.teleport.tppos`

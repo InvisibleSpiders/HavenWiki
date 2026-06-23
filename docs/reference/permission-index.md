@@ -35,6 +35,7 @@
 - `havennecessities.bank.upgrade`
 - `havennecessities.serverbank.view`
 - `havennecessities.serverbank.deposit`
+- `havennecessities.events.vote`
 
 ## Player Systems
 
@@ -50,9 +51,22 @@
 - `havennecessities.chat.channel.staff`
 - `havennecessities.chat.cooldown.bypass.market`
 - `havennecessities.chat.discord.link`
-- `havennecessities.custommessage.use`
-- `havennecessities.custommessage.custom`
+- `havennecessities.cosmetics.use`
+- `havennecessities.cosmetics.custom`
+- `havennecessities.cosmetics.custom.prefix`
+- `havennecessities.cosmetics.custom.join`
+- `havennecessities.cosmetics.custom.leave`
+- `havennecessities.cosmetics.custom.username-color`
+- `havennecessities.cosmetics.custom.chat-color`
+- `havennecessities.cosmetics.custom.gradient`
+- `havennecessities.cosmetics.custom.gradient.username-color`
+- `havennecessities.cosmetics.custom.gradient.chat-color`
+- `havennecessities.cosmetics.particles.flight.witch`
 - `havennecessities.professions.use`
+- `havennecessities.profile.view`
+- `havennecessities.profile.view.others`
+- `havennecessities.toolbelt.use`
+- `havennecessities.toolbelt.craft`
 
 ## Admin
 
@@ -60,8 +74,12 @@
 - `havennecessities.admin.balance`
 - `havennecessities.admin.bank`
 - `havennecessities.admin.serverbank`
+- `havennecessities.admin.events`
 - `havennecessities.admin.professions`
 - `havennecessities.admin.storage`
+- `havennecessities.admin.toolbelt`
+- `havennecessities.admin.toolbelt.give`
+- `havennecessities.admin.toolbelt.clear`
 - `havennecessities.admin.worldborder`
 - `havennecessities.admin.reload`
 - `havennecessities.admin.time`
@@ -90,6 +108,8 @@
 ## Bypasses
 
 - `havennecessities.flight.bypass-charge`
+- `havennecessities.sleep.bypass`
+- `havennecessities.toolbelt.bypass.unlocks`
 - `havennecessities.worldborder.bypass.teleport-block`
 - `havennecessities.worldborder.bypass.placement-block`
 - `havennecessities.inventory.bypass.death-rules`
