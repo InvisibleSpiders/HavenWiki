@@ -1,12 +1,13 @@
 # Economy
 
-The balance module provides player wallets. Wallet money is used by `/pay`, personal banks, server bank contributions, flight upgrades, custom message purchases, and optional teleport costs.
+The balance module provides player wallets. Wallet money is used by `/pay`, personal banks, server bank contributions, flight upgrades, cosmetic purchases, event funding, and optional teleport costs.
 
 ## Wallet Balance
 
 | Command | Description |
 | --- | --- |
 | `/balance` or `/bal` | View your wallet balance. |
+| `/balance <player>` | View another online player's balance when permitted. |
 | `/pay <player> <amount>` | Pay another online player. |
 
 `/pay` targets online players and rejects self-payments.

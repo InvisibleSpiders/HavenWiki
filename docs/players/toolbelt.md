@@ -1,27 +1,27 @@
-# Tool Belt
+# Multi-Tool
 
-The Tool Belt stores one tool per slot type and works while you are wearing leggings with a Tool Belt attached. The module is enabled by default.
+The Multi-Tool stores one tool per slot type. It can be used as an inventory-carried item and still supports the legacy leggings attachment flow. The module is enabled by default.
 
 ## Getting Started
 
-1. Craft the Tool Belt item.
-2. Combine the Tool Belt with leggings in your 2x2 player crafting grid or a crafting table.
-3. Equip the attached leggings.
-4. Run `/toolbelt` to add tools to your unlocked slots.
+1. Craft the Multi-Tool item.
+2. Carry it in your inventory, or combine it with leggings if your server uses the legacy attachment flow.
+3. Run `/toolbelt` to add tools to your unlocked slots.
 
-The physical Tool Belt item is consumed when it is attached. Your stored tools are saved to your player account, not to the item, so replacement belts open your own storage.
+Your stored tools are saved to your player account, not to the item, so replacement tools open your own storage.
 
 ## Player Commands
 
 | Command | Description |
 | --- | --- |
-| `/toolbelt` | Open your Tool Belt storage. |
+| `/toolbelt` | Open your Multi-Tool storage. |
+| `/toolbelt open` | Open your Multi-Tool storage. |
 | `/toolbelt recipe` | Show the configured recipe in a read-only 3x3 preview. |
 | `/toolbelt help` | Show command help. |
 
 ## Using Stored Tools
 
-When attached leggings are equipped and your main hand is empty, the belt can temporarily equip the matching stored tool for a block or entity interaction, then return the updated tool to storage.
+When the Multi-Tool is available and your main hand is empty, it can temporarily equip the matching stored tool for a block or entity interaction, then return the updated tool to storage.
 
 Default slot types include pickaxe, axe, shovel, hoe, sword, shears, and brush.
 
@@ -31,7 +31,7 @@ Stored shovels and hoes can transform blocks:
 
 - Normal right-click uses the configured normal action.
 - Sneak-right-click uses the configured sneaking action.
-- Shift-right-clicking air still opens the Tool Belt UI.
+- Shift-right-clicking air still opens the Multi-Tool UI.
 
 By default, normal right-click prefers path creation and sneaking prefers tilling.
 
@@ -54,11 +54,10 @@ New players start with the configured base slot count. Additional slots unlock f
 
 Player flow:
 
-1. Craft a Tool Belt.
-2. Combine it with leggings.
-3. Wear the leggings.
-4. Store a pickaxe in an unlocked slot.
-5. Empty your main hand and mine a matching block.
+1. Craft a Multi-Tool.
+2. Carry it or attach it to leggings if your server still uses attachment.
+3. Store a pickaxe in an unlocked slot.
+4. Empty your main hand and mine a matching block.
 
 ## Permissions
 

@@ -56,6 +56,7 @@ This page lists common player commands. Staff-only commands live in [Admin Comma
 | `/event status` | Show active event details. |
 | `/event vote yes` | Vote yes on an active event vote. |
 | `/event vote no` | Vote no on an active event vote. |
+| `/event reroll` | Vote to reroll the current random event. |
 | `/profile` | View your own profile. |
 | `/profile <player>` | View another player when permitted. |
 
@@ -68,15 +69,17 @@ This page lists common player commands. Staff-only commands live in [Admin Comma
 | `/flyupgrade` | Buy the next flight efficiency tier. |
 | `/storage` | Open categorized storage. |
 | `/storage <category>` | View one storage category. |
+| `/storage claim` | Open shared claim storage while standing in an accessible claim. |
 | `/storage deposit <category>` | Deposit matching inventory items. |
 | `/storage withdraw <category> <material> <amount>` | Withdraw stored items. |
-| `/toolbelt` | Open your Tool Belt storage. |
-| `/toolbelt recipe` | Show the Tool Belt recipe preview. |
-| `/toolbelt help` | Show Tool Belt help. |
+| `/toolbelt`, `/toolbelt open` | Open your Multi-Tool storage. |
+| `/toolbelt recipe` | Show the Multi-Tool recipe preview. |
+| `/toolbelt help` | Show Multi-Tool help. |
 | `/professions`, `/profession` | Open profession selection. |
 | `/profession <profession>` | Open a profession detail page. |
 | `/professions list` | List professions. |
 | `/professions status` | Show your selected professions and progress. |
 | `/profession leave <main|hobby>` | Leave one profession role. |
 | `/cosmetics` | Open the cosmetics hub. |
+| `/combatconfirm` | Confirm a pending combat-log warning when dialogs are unavailable. |
 | `/afk` | Toggle AFK status. |

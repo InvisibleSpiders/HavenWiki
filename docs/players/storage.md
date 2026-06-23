@@ -8,6 +8,8 @@ The storage module gives players categorized item storage. It is disabled by def
 
 `/storage <category>` opens that category's chest UI. The category screen opens even when the category has no stored items.
 
+`/storage claim` opens claim-owned shared storage when the player is standing inside an accessible claim. The main `/storage` menu can also show a Claim Storage button with the current claim owner, claim name, access level, and capacity.
+
 ## Category Screens
 
 Category screens can show:
@@ -55,7 +57,18 @@ Professions can increase storage. Main profession level-ups can permanently add 
 
 If a profession death penalty lowers a player's level, storage bonuses above the new level become locked until the level is regained. The original rolls are reused when regained, so players cannot reroll storage bonuses by losing and regaining levels.
 
+## Claim Storage
+
+Claim storage belongs to the claim, not to each trusted player. If a player is trusted in another player's claim and opens claim storage there, they see that claim's shared contents.
+
+Capacity is generated from claim size plus tracked claim activity, then capped by config. Access follows the configured claim relationship:
+
+- Owners can view, deposit, withdraw, and manage.
+- Trusted and container-trusted players can view, deposit, and withdraw by default.
+- Build-trusted players can view and deposit by default.
+
+Claim storage is unrestricted by item category, but it can still use a configured item blacklist.
+
 ## Permissions
 
 - `havennecessities.storage.use`
-- `havennecessities.admin.storage`

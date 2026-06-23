@@ -33,6 +33,10 @@ Teleport costs are disabled by default. When the balance module is enabled and t
 
 When the worldborder module is enabled, teleport commands can be blocked from leaving or entering the frontier depending on worldborder settings. The bypass permission is intentionally separate so moderation staff can be granted it explicitly.
 
+## Claim Safety
+
+When ClaimsBridge is enabled, teleport features can avoid protected land. Random teleport can be configured to avoid sending players into claimed land.
+
 ## Permissions
 
 - `havennecessities.teleport.spawn`

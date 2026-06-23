@@ -62,13 +62,24 @@ Wallet edits enforce wallet maximums. Personal bank edits enforce the player's c
 | `/havenadmin storage remove <player> <category> <material> <amount>` | Remove stored items. |
 | `/havenadmin storage clear <player> <category|all> confirm` | Clear stored items. |
 
-## Tool Belt
+## Claim Storage
 
 | Command | Description |
 | --- | --- |
-| `/havenadmin toolbelt view <player>` | View or edit a player's Tool Belt storage. |
-| `/havenadmin toolbelt give <player>` | Give the physical Tool Belt item to an online player. |
-| `/havenadmin toolbelt clear <player> confirm` | Clear stored belt tools. |
+| `/admin claimstorage inspect [claimId]` | Inspect claim storage state. |
+| `/admin claimstorage setslots <claimId> <slots>` | Set claim storage capacity. |
+| `/admin claimstorage lock <claimId> [reason]` | Lock claim storage. |
+| `/admin claimstorage unlock <claimId>` | Unlock claim storage. |
+| `/admin claimstorage purge <claimId> confirm` | Delete stored claim contents. |
+| `/admin claimstorage transfer <fromClaimId> <toClaimId>` | Transfer claim storage contents. |
+
+## Multi-Tool
+
+| Command | Description |
+| --- | --- |
+| `/havenadmin toolbelt view <player>` | View or edit a player's Multi-Tool storage. |
+| `/havenadmin toolbelt give <player>` | Give the physical Multi-Tool item to an online player. |
+| `/havenadmin toolbelt clear <player> confirm` | Clear stored Multi-Tool tools. |
 
 ## Events
 
@@ -87,6 +98,23 @@ Wallet edits enforce wallet maximums. Personal bank edits enforce the player's c
 | `/havenadmin border set <world> <size>` | Set worldborder size. |
 | `/havenadmin border expand <world> <blocks>` | Expand a worldborder. |
 | `/havenadmin border reset <world>` | Reset a managed worldborder. |
+
+## Spawners And ClaimsBridge
+
+| Command | Description |
+| --- | --- |
+| `/spawners give <player> <item-id> [amount]` | Give a configured Haven spawner item. |
+| `/spawners inspect` | Inspect the placed Haven spawner you are looking at. |
+| `/spawners setmob <mob>` | Change a Haven spawner mob. |
+| `/spawners setlevel <level>` | Change a Haven spawner tier. |
+| `/spawners activate` | Mark a Haven spawner active. |
+| `/spawners deactivate` | Mark a Haven spawner inactive. |
+| `/spawners transfer <player>` | Transfer spawner ownership. |
+| `/spawners reload` | View spawner reload guidance. |
+| `/admin claimsbridge status` | Show ClaimsBridge status. |
+| `/admin claimsbridge inspect` | Inspect the current claim context. |
+| `/admin claimsbridge scan` | Scan claim-linked Haven systems. |
+| `/admin claimsbridge reactivate` | Reactivate eligible orphaned spawners. |
 
 ## Server Controls
 
@@ -120,8 +148,8 @@ Shortcut examples:
 | `/admin item enchant clear` | Clear enchantments. |
 | `/admin item repair` | Repair the held item. |
 | `/admin item repair all` | Repair repairable items in your inventory. |
-| `/admin item repair toolbelt` | Repair stored tools in your own Tool Belt. |
-| `/admin item repair all-with-toolbelt` | Repair inventory and stored Tool Belt tools. |
+| `/admin item repair toolbelt` | Repair stored tools in your own Multi-Tool. |
+| `/admin item repair all-with-toolbelt` | Repair inventory and stored Multi-Tool tools. |
 
 Unsafe enchantments require both `--unsafe` or `-u` and `havennecessities.admin.item.unsafe`.
 

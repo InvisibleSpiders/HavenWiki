@@ -22,7 +22,14 @@
 - `havennecessities.teleport.tpdeny`
 - `havennecessities.teleport.rtp`
 - `havennecessities.teleport.tppos`
+- `havennecessities.teleport.claims.bypass`
 - `havennecessities.economy.bypass.teleport-costs`
+- `havennecessities.economy.bypass.teleport-costs.spawn`
+- `havennecessities.economy.bypass.teleport-costs.home`
+- `havennecessities.economy.bypass.teleport-costs.warp`
+- `havennecessities.economy.bypass.teleport-costs.player-warp`
+- `havennecessities.economy.bypass.teleport-costs.rtp`
+- `havennecessities.economy.bypass.teleport-costs.tpa`
 
 ## Economy And Banks
 
@@ -67,6 +74,18 @@
 - `havennecessities.profile.view.others`
 - `havennecessities.toolbelt.use`
 - `havennecessities.toolbelt.craft`
+- `havennecessities.profile.privacy`
+
+## Spawners And ClaimsBridge
+
+- `havennecessities.spawners.admin`
+- `havennecessities.spawners.give`
+- `havennecessities.spawners.inspect`
+- `havennecessities.spawners.modify`
+- `havennecessities.spawners.reload`
+- `havennecessities.spawners.bypass`
+- `havennecessities.claimsbridge.bypass.frontier-claims`
+- `havennecessities.claimsbridge.bypass.spawner-placement`
 
 ## Admin
 
@@ -77,6 +96,8 @@
 - `havennecessities.admin.events`
 - `havennecessities.admin.professions`
 - `havennecessities.admin.storage`
+- `havennecessities.admin.claimstorage`
+- `havennecessities.admin.claimsbridge`
 - `havennecessities.admin.toolbelt`
 - `havennecessities.admin.toolbelt.give`
 - `havennecessities.admin.toolbelt.clear`
@@ -104,12 +125,20 @@
 - `havennecessities.admin.mute`
 - `havennecessities.admin.unmute`
 - `havennecessities.admin.modhistory`
+- `havennecessities.admin.gamemode.others`
+- `havennecessities.admin.heal.others`
+- `havennecessities.admin.feed.others`
+- `havennecessities.admin.fly.others`
+- `havennecessities.admin.speed.others`
+- `havennecessities.admin.lockchat.bypass`
 
 ## Bypasses
 
 - `havennecessities.flight.bypass-charge`
 - `havennecessities.sleep.bypass`
 - `havennecessities.toolbelt.bypass.unlocks`
+- `havennecessities.teleport.bypass.warmup`
+- `havennecessities.teleport.bypass.cooldown`
 - `havennecessities.worldborder.bypass.teleport-block`
 - `havennecessities.worldborder.bypass.placement-block`
 - `havennecessities.inventory.bypass.death-rules`
@@ -117,3 +146,5 @@
 - `havennecessities.combat.bypass.teleport-block`
 - `havennecessities.combat.bypass.flight-block`
 - `havennecessities.combat.bypass.logout-penalty`
+- `havennecessities.moderation.bypass.ban`
+- `havennecessities.moderation.bypass.mute`

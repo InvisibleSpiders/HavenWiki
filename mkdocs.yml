@@ -77,19 +77,25 @@ nav:
           - players/professions/hunter.md
           - players/professions/merchant.md
           - players/professions/prospector.md
+      - players/spawners.md
       - players/worldborder-frontier.md
       - players/combat.md
+      - players/inventory-sleep.md
       - players/cosmetics.md
       - players/profile.md
       - players/afk.md
   - Staff And Admins:
       - admins/installation.md
+      - admins/system-setup.md
       - admins/configuration.md
       - admins/modules.md
+      - admins/source-catalog.md
       - admins/permissions.md
       - admins/admin-commands.md
       - admins/events.md
       - admins/rewards.md
+      - admins/spawners.md
+      - admins/claimsbridge.md
       - admins/moderation.md
       - admins/storage-and-database.md
       - admins/placeholders-integrations.md

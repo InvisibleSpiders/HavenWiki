@@ -31,13 +31,14 @@
 | `/deposit <amount>` | Bank |
 | `/withdraw <amount>` | Bank |
 | `/serverbank`, `/serverbank deposit <amount>` | Server bank |
-| `/event`, `/event vote <yes|no>`, `/event status` | Events |
+| `/event`, `/event vote <yes|no>`, `/event reroll`, `/event status` | Events |
 | `/fly`, `/flycharge`, `/flyupgrade` | Flight |
-| `/storage ...` | Storage |
-| `/toolbelt`, `/toolbelt recipe`, `/toolbelt help` | Tool Belt |
+| `/storage ...`, `/storage claim` | Storage |
+| `/toolbelt`, `/toolbelt open`, `/toolbelt recipe`, `/toolbelt help` | Multi-Tool |
 | `/professions`, `/profession ...` | Professions |
 | `/cosmetics ...` | Cosmetics |
 | `/profile [player] [category]` | Profile |
+| `/combatconfirm` | Combat warning acknowledgement |
 | `/afk` | AFK |
 
 ## Staff Commands
@@ -62,7 +63,10 @@
 | `/kick`, `/warn`, `/ban`, `/tempban`, `/unban`, `/mute`, `/unmute`, `/modhistory` | Moderation |
 | `/admin profession ...` | Profession admin |
 | `/admin storage ...` | Storage admin |
-| `/admin toolbelt ...` | Tool Belt admin |
+| `/admin toolbelt ...` | Multi-Tool admin |
 | `/admin item ...` | Held item and repair tools |
 | `/admin event ...` | Events admin |
 | `/admin border ...` | Worldborder admin |
+| `/spawners ...` | Spawners admin |
+| `/admin claimsbridge ...` | ClaimsBridge admin |
+| `/admin claimstorage ...` | Claim storage admin |

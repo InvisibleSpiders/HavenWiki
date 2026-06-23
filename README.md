@@ -2,7 +2,7 @@
 
 Public documentation for HavenMC server systems.
 
-This wiki starts with HavenNecessities, the all-in-one Paper plugin that powers teleportation, economy, banks, charged flight, storage, professions, frontier rules, moderation tools, cosmetics, AFK, chat, and combat protections.
+This wiki starts with HavenNecessities, the all-in-one Paper plugin that powers teleportation, economy, banks, charged flight, storage, professions, frontier rules, spawners, claim-aware integrations, moderation tools, cosmetics, AFK, chat, and combat protections.
 
 ## Website
 
@@ -24,11 +24,13 @@ This repository is configured for GitHub Pages with MkDocs Material.
 - [Banks](docs/players/banks.md)
 - [Flight](docs/players/flight.md)
 - [Storage](docs/players/storage.md)
-- [Tool Belt](docs/players/toolbelt.md)
+- [Multi-Tool](docs/players/toolbelt.md)
 - [Professions](docs/players/professions/index.md)
+- [Spawners](docs/players/spawners.md)
 - [Profile](docs/players/profile.md)
 - [Worldborder Frontier](docs/players/worldborder-frontier.md)
 - [Combat](docs/players/combat.md)
+- [Inventory And Sleep](docs/players/inventory-sleep.md)
 - [Cosmetics](docs/players/cosmetics.md)
 - [AFK](docs/players/afk.md)
 
@@ -41,6 +43,10 @@ This repository is configured for GitHub Pages with MkDocs Material.
 - [Admin Commands](docs/admins/admin-commands.md)
 - [Events Admin](docs/admins/events.md)
 - [Rewards Admin](docs/admins/rewards.md)
+- [Spawners Admin](docs/admins/spawners.md)
+- [ClaimsBridge Admin](docs/admins/claimsbridge.md)
+- [System Setup](docs/admins/system-setup.md)
+- [Source Catalog](docs/admins/source-catalog.md)
 - [Moderation](docs/admins/moderation.md)
 - [Storage And Database](docs/admins/storage-and-database.md)
 - [Placeholders And Integrations](docs/admins/placeholders-integrations.md)

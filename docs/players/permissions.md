@@ -21,6 +21,18 @@ This page lists the main player-facing permissions. Staff/admin permissions live
 - `havennecessities.teleport.tpdeny`
 - `havennecessities.teleport.rtp`
 
+## Economy Bypasses
+
+These are normally staff-side bypasses, but are listed here because they affect player teleport costs:
+
+- `havennecessities.economy.bypass.teleport-costs`
+- `havennecessities.economy.bypass.teleport-costs.spawn`
+- `havennecessities.economy.bypass.teleport-costs.home`
+- `havennecessities.economy.bypass.teleport-costs.warp`
+- `havennecessities.economy.bypass.teleport-costs.player-warp`
+- `havennecessities.economy.bypass.teleport-costs.rtp`
+- `havennecessities.economy.bypass.teleport-costs.tpa`
+
 ## Economy And Banks
 
 - `havennecessities.balance.view`
