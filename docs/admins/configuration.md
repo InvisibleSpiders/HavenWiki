@@ -13,6 +13,8 @@ HavenNecessities stores global settings, messages, permissions references, and m
 
 Each module file includes an `enabled` switch.
 
+For practical snippets and explanations of the most important customization keys, see [Config Examples](config-examples.md).
+
 ## MiniMessage
 
 Messages use MiniMessage syntax. PlaceholderAPI is resolved only when the integration is available and the relevant module supports it.
@@ -21,5 +23,6 @@ Messages use MiniMessage syntax. PlaceholderAPI is resolved only when the integr
 
 - SQLite is the active storage backend.
 - MySQL and MariaDB are planned but not active.
-- Balance, bank, server bank, flight, inventory, worldborder, AFK, chat, custom message, combat, professions, and storage modules are opt-in.
+- Balance, teleport, chat, combat, and Multi-Tool are enabled by default in the current config.
+- Bank, server bank, events, inventory, worldborder, cosmetics, professions, storage, rewards, ClaimsBridge, profile, and spawners are opt-in.
 - Teleport costs are disabled unless both balance and teleport cost charging are enabled.

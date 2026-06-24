@@ -27,4 +27,4 @@ VaultUnlocked bridge scaffolding charges against HavenNecessities wallets when u
 
 ## FancyDialogs
 
-FancyDialogs can provide richer profession and custom message UIs. Chat fallback is used when dialogs are unavailable.
+FancyDialogs can provide richer profession and cosmetics UIs. Chat fallback is used when dialogs are unavailable.

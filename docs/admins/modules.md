@@ -2,6 +2,8 @@
 
 HavenNecessities is organized into modules. Enable only the systems your server wants to use.
 
+Use [Config Examples](config-examples.md) for copyable snippets and explanations of common customization keys.
+
 | Module File | Feature |
 | --- | --- |
 | `modules/teleport.yml` | Spawn, homes, warps, player warps, teleport requests, RTP, warmups, cooldowns, and optional costs. |

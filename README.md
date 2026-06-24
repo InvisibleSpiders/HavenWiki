@@ -38,6 +38,7 @@ This repository is configured for GitHub Pages with MkDocs Material.
 
 - [Installation](docs/admins/installation.md)
 - [Configuration](docs/admins/configuration.md)
+- [Config Examples](docs/admins/config-examples.md)
 - [Modules](docs/admins/modules.md)
 - [Permissions](docs/admins/permissions.md)
 - [Admin Commands](docs/admins/admin-commands.md)

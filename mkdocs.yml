@@ -88,6 +88,7 @@ nav:
       - admins/installation.md
       - admins/system-setup.md
       - admins/configuration.md
+      - admins/config-examples.md
       - admins/modules.md
       - admins/source-catalog.md
       - admins/permissions.md

@@ -33,6 +33,7 @@ HavenWiki starts with HavenNecessities, the all-in-one Paper plugin that powers 
 
 - [Installation](admins/installation.md)
 - [Configuration](admins/configuration.md)
+- [Config Examples](admins/config-examples.md)
 - [Modules](admins/modules.md)
 - [Permissions](admins/permissions.md)
 - [Admin Commands](admins/admin-commands.md)
